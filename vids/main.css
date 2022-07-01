@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vidcard {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 60%;
+    text-align: center;
+}
+
+.vidcard:hover {
+    background-color: grey;
+    color: white;
+}
+
+.title {
+    margin-bottom: -3rem;
+}
+
+.tag {
+    font-style: italic;
+    margin-top: -1rem;
+}
